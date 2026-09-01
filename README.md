@@ -32,8 +32,21 @@
 Проект использует современный пакетный менеджер [uv](https://github.com/astral-sh/uv) для сборки виртуальных окружений.
 
 ### 1. Клонирование репозитория
+
 ```bash
 git clone [https://github.com/Makc-T/research-agent-rag.git](https://github.com/Makc-T/research-agent-rag.git)
 cd research-agent-rag
+```
 
-### 2. Пос
+### 2. 2. Настройка окружения
+Создайте файл .env в корневой директории проекта и добавьте ваш токен доступа OpenAI:
+OPENAI_API_KEY="sk-вашь_секретный_ключ"
+
+### 3. Установка зависимостей
+Сборка изолированного окружения и установка всех необходимых пакетов одной командой:
+uv sync
+
+### 4. Запуск в терминале
+Активируйте виртуальное окружение и запустите пайплайн:
+source .venv/Scripts/activate
+python run_terminal.py
