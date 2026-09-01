@@ -1,0 +1,17 @@
+cat <<EOT >> .gitignore
+# Секреты
+.env
+
+# Виртуальное окружение
+.venv/
+
+# Локальные базы и скачанные файлы
+data/
+*.pdf
+
+# Кэш Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+EOT
