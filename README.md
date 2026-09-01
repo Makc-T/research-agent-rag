@@ -35,3 +35,4 @@
 ```bash
 git clone [https://github.com/Makc-T/research-agent-rag.git](https://github.com/Makc-T/research-agent-rag.git)
 cd research-agent-rag
+### 2. Клонирование репозитория
